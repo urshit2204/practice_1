@@ -1,0 +1,34 @@
+    form{
+
+            margin: auto;
+            border: 2px solid yellow;
+            width: 35%;
+            height: 100%;
+            text-align: center;
+        }
+
+        table,th,td{
+            border: 5px solid black;
+        
+        }
+        table,h2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #outer{
+            background-color: aqua;
+            width: 200px;
+            height: 20%;
+            display: flex;
+            border-radius: 50%;
+            border: 5px;
+        }
+        #inner{
+            background-color: antiquewhite;
+            width: 100px;
+            height: 100px;
+            margin: 100px 150px 150px 200px;
+            border-radius: 50%;
+            border: 5px yellow;
+        }
